@@ -1,0 +1,74 @@
+*{margin:0; padding:0}
+body{
+  box-sizing: border-box;
+  font-family:"Times New Roman", Times, serif;
+  color:black;
+  background:white url("../img/colorPeople_alpha.png") fixed;
+}
+header{
+  margin-top: 150px;
+  overflow: hidden;
+}
+.padding_big{
+  padding:0 10%;
+  /*border:1px solid black*/
+}
+.container{
+  padding:10px 0;
+  overflow: hidden;
+  border-bottom: 2px solid #fff;
+}
+.container.last{
+  border-bottom: none;
+  text-align: center;
+  color:white;
+}
+img{
+  float: left;
+  width: 84px;
+}
+#header_main{
+  float: left;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 42px;
+}
+input[type="text"]{
+  width:200px;
+  height:20px;
+}
+button{
+  padding:0 10px;
+  line-height:20px;
+}
+#counter_mail{
+  padding:10px 0 2px;
+}
+#counter_mail>#block_circle{
+  display: inline-block;
+  padding:8px;
+  border-radius: 50%;
+  background:#ff00a1;
+  color:#fff
+}
+
+
+li{
+  background: #ccc;
+  font-size:18px;
+  padding:5px 0;
+  border: 1px solid #000;
+}
+input[type="checkbox"]{
+  margin:0 10px;
+}
+#selected_mail{
+  background: #fff;
+}
+.unread_mail{
+  color:#666
+}
+#sign{
+  font-size:14px;
+  font-style: italic;
+}
